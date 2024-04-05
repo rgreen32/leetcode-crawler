@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: leetcode_crawler
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
